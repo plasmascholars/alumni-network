@@ -2,7 +2,7 @@
 
 ## Gurudatt Gaur
 
-![Gurudatt Gaur](./images/Gurudatt.Gaur.jpg)
+![Gurudatt Gaur](/alumni-data//images/Gurudatt.Gaur.jpg)
 
 - **Name**: Gurudatt Gaur
 - **Batch Year**: 2006
