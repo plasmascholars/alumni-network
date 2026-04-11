@@ -9,6 +9,10 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCE_DIR = ROOT / "alumni-data"
 OUTPUT_DIR = ROOT / "docs" / "alumni"
 TEMPLATE_FILE = "TEMPLATE.md"
+NAME_FIELD_RE = re.compile(
+    r"^\s*[-*]\s*\*\*Name\*\*\s*:\s*(?P<name>.+?)\s*$",
+    re.IGNORECASE,
+)
 
 
 def slugify(name: str) -> str:
@@ -16,11 +20,20 @@ def slugify(name: str) -> str:
     return slug or "profile"
 
 
-def extract_title(text: str, fallback: str) -> str:
+def display_name_from_filename(path: Path) -> str:
+    return re.sub(r"[-_]+", " ", path.stem).strip() or path.stem
+
+
+def extract_profile_name(text: str, source_path: Path) -> str:
+    fallback = display_name_from_filename(source_path)
+
     for line in text.splitlines():
-        line = line.strip()
-        if line.startswith("## "):
-            return line[3:].strip()
+        match = NAME_FIELD_RE.match(line)
+        if match:
+            name = match.group("name").strip()
+            if name:
+                return name
+
     return fallback
 
 
@@ -59,11 +72,12 @@ def generate_alumni_docs() -> list[tuple[str, str]]:
     entries: list[tuple[str, str]] = []
 
     for source_path in sorted(SOURCE_DIR.glob("*.md")):
-        destination_name = "template.md" if source_path.name == TEMPLATE_FILE else None
+        is_template = source_path.name.casefold() == TEMPLATE_FILE.casefold()
+        destination_name = "template.md" if is_template else None
         content = source_path.read_text(encoding="utf-8")
 
         if destination_name is None:
-            title = extract_title(content, source_path.stem.replace("-", " "))
+            title = extract_profile_name(content, source_path)
             slug = slugify(source_path.stem)
             destination_name = f"{slug}.md"
             entries.append((title, slug))
@@ -92,3 +106,7 @@ def on_config(config, **kwargs):
 
     config["nav"] = updated_nav
     return config
+
+
+if __name__ == "__main__":
+    generate_alumni_docs()
