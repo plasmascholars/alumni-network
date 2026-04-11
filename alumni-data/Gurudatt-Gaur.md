@@ -2,7 +2,7 @@
 
 ## Gurudatt Gaur
 
-![Gurudatt Gaur](images/gurudatt-gaur.jpg)
+![Gurudatt Gaur](images/Gurudatt.Gaur.jpg)
 
 - **Name**: Gurudatt Gaur
 - **Batch Year**: 2006
