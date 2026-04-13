@@ -8,6 +8,8 @@ site_dir: site
 use_directory_urls: true
 hooks:
   - scripts/generate_alumni_docs.py
+extra:
+images_dir: images
 exclude_docs: |
   _config.yml
 
