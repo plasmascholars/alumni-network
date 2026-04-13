@@ -1,7 +1,7 @@
 # Alumni Profile
 
 ## Gurudatt Gaur
-![Gurudatt Gaur](https://raw.githubusercontent.com/plasmascholars/alumni-network/main/alumni-data/images/Gurudatt.Gaur.jpg)
+![Gurudatt Gaur](images/Gurudatt.Gaur.jpg)
 
 - **Name**: Gurudatt Gaur
 - **Batch Year**: 2006
