@@ -36,8 +36,8 @@ jobs:
           python-version: "3.12"
 
       # MkDocs is the only required dependency in the current setup.
-      - name: Install MkDocs
-        run: pip install mkdocs
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       # The MkDocs hook in scripts/generate_alumni_docs.py regenerates docs/alumni/
       # from alumni-data/ before the site is built.
