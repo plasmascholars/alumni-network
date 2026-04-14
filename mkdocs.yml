@@ -1,20 +1,25 @@
 site_name: IPR Alumni Network
 site_description: Official site for the IPR Alumni Network
-site_url: ""
+site_url: https://plasmascholars.github.io/alumni-network/
+
 repo_url: https://github.com/plasmascholars/alumni-network
 repo_name: alumni-network
+
 docs_dir: docs
 site_dir: site
 use_directory_urls: true
+
 hooks:
   - scripts/generate_alumni_docs.py
+
 extra:
-images_dir: images
-exclude_docs: |
-  _config.yml
+  images_dir: images
 
 theme:
-  name: mkdocs
+  name: material
+
+plugins:
+  - search
 
 nav:
   - Home: index.md
