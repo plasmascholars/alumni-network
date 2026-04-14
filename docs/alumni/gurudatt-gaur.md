@@ -1,6 +1,7 @@
 # Alumni Profile
 
 ## Gurudatt Gaur
+![Profile](/images/gurudatt.jpg)
 - **Name**: Gurudatt Gaur
 - **Batch Year**: 2006
 - **Current Position**: Assiatnt Professor
