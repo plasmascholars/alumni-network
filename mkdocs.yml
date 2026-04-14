@@ -23,7 +23,7 @@ plugins:
 
 nav:
   - Home: index.md
-  - Directory: directory.md
+  #- Directory: directory.md
   - Events: events.md
   - News: news.md
   - Resources: resources.md
