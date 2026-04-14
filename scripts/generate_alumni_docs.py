@@ -106,6 +106,8 @@ def generate_alumni_docs() -> list[tuple[str, str]]:
 
         if is_template:
             destination_name = "template.md"
+            (OUTPUT_DIR / destination_name).write_text(content, encoding="utf-8")
+            continue
         else:
             title = extract_profile_name(content, source_path)
             slug = slugify(title)  # 🔥 better than filename-based slug
