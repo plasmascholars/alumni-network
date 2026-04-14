@@ -10,7 +10,7 @@ The Alumni Network aims to create a vibrant and engaging platform where former m
 - Organizing events and reunions
 
 ## Key Sections
-- [Alumni Directory](directory.md): Learn how alumni profiles are organized and maintained.
+- [Alumni Profiles]: Learn how alumni profiles are organized and maintained.
 - [Events](events.md): Stay updated on upcoming alumni events and reunions.
 - [Resources](resources.md): Access valuable resources and job opportunities shared by fellow alumni.
 - [Contact](contact.md): Reach out to the alumni network team.
