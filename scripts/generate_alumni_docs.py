@@ -93,7 +93,8 @@ def generate_alumni_docs() -> list[tuple[str, str]]:
 
     # Clean old generated files
     for path in OUTPUT_DIR.glob("*.md"):
-        path.unlink()
+        if path.name != "template.md":  # preserve template
+            path.unlink()
 
     entries: list[tuple[str, str]] = []
 
