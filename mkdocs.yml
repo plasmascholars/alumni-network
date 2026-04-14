@@ -1,7 +1,7 @@
 site_name: IPR Alumni Network
 site_description: Official site for the IPR Alumni Network
 site_url: ""
-repo_url: https://github.com/usinhampik/alumni-network
+repo_url: https://github.com/plasmascholars/alumni-network
 repo_name: alumni-network
 docs_dir: docs
 site_dir: site
