@@ -139,16 +139,18 @@ def on_config(config, **kwargs):
 
     alumni_nav.extend({title: f"alumni/{slug}.md"} for title, slug in entries)
 
-    updated_nav = []
-    for item in config["nav"]:
-        if isinstance(item, dict) and "Alumni Profiles" in item:
-            updated_nav.append({"Alumni Profiles": alumni_nav})
-        else:
-            updated_nav.append(item)
+    # 🔥 Define nav explicitly (no leftovers)
+    config["nav"] = [
+        {"Home": "index.md"},
+        {"Events": "events.md"},
+        {"News": "news.md"},
+        {"Resources": "resources.md"},
+        {"Documents": "documents.md"},
+        {"Contact": "contact.md"},
+        {"Alumni Profiles": alumni_nav},
+    ]
 
-    config["nav"] = updated_nav
     return config
-
 
 # -----------------------------
 # Local Run
