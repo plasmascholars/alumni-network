@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent.parent
-SOURCE_DIR = ROOT / "alumni-data"
+SOURCE_DIR = ROOT / "docs" / "alumni-data"
 OUTPUT_DIR = ROOT / "docs" / "alumni"
 TEMPLATE_FILE = "TEMPLATE.md"
 
