@@ -1,8 +1,7 @@
 # Alumni Profile
 
 ## Gurudatt Gaur
-
-![Gurudatt Gaur](/alumni-data/images/Gurudatt.Gaur.jpg)
+![Profile](Gurudatt.Gaur.jpg)
 
 - **Name**: Gurudatt Gaur
 - **Batch Year**: 2006
