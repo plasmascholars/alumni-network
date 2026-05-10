@@ -1,6 +1,6 @@
 **Name**: Sonu Yadav
 
-**Batch Year**: Ph.D. 2012
+**Batch Year**: 2012
 
 **Current Position**: Research Scientist 
 
