@@ -9,7 +9,8 @@ Organization: West Virginia University (WVU)
 Location: Morgantown, West Virginia, USA
 
 Email: sohamyadav1908@gmail.com
-
+GitHub: https://sonuyadav1908.github.io/ 
+Google Scholar: https://scholar.google.com/citations?user=5u55x14AAAAJ&hl=en
 Research Interests:
 Experimental plasma physics, magnetic reconnection, wave–particle interactions, lower-hybrid drift instability (LHDI), plasma diagnostics, Thomson scattering, space and laboratory plasmas, plasma propulsion, and semiconductor plasma processing.
 
