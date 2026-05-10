@@ -1,43 +1,22 @@
+Name: Sonu Yadav
 
-# Sonu Yadav
+Batch Year: Ph.D. 2012
 
-- **Name**: Sonu Yadav
-- **Current Position**: Research Scientist / Experimental Plasma Physicist, West Virginia University
-- **Research Area**: Experimental Plasma Physics, Magnetic Reconnection, Wave–Particle Interactions, Plasma Diagnostics, Space and Laboratory Plasmas
-- **PhD Institution**: Institute for Plasma Research (IPR), India
-- **Current Institution**: West Virginia University (WVU), USA
+Current Position: Research Scientist 
 
-## About
+Organization: West Virginia University (WVU)
 
-Sonu Yadav is an experimental plasma physicist working at the intersection of laboratory plasma physics, space plasma physics, and advanced plasma diagnostics. His research focuses on magnetic reconnection, lower-hybrid drift instabilities, wave–particle interactions, and kinetic electron dynamics in magnetized plasmas.
+Location: Morgantown, West Virginia, USA
 
-At West Virginia University, he works on the PHAse Space MApping (PHASMA) experiment, where he develops and applies advanced plasma diagnostics including Thomson scattering, Langmuir probes, magnetic probe arrays, and kinetic distribution measurements to study fundamental plasma processes relevant to heliophysics and fusion plasmas.
+Email: sohamyadav1908@gmail.com
 
-His broader research interests also include plasma processing for semiconductor applications, plasma propulsion systems, and data-driven plasma analysis methods.
+GitHub: https://sonuyadav1908.github.io/
+Google Scholar: https://scholar.google.com/citations?user=5u55x14AAAAJ&hl=en
 
-## Research Interests
 
-- Magnetic reconnection
-- Wave–particle interactions
-- Lower-hybrid drift instability (LHDI)
-- Electron velocity distribution functions (EVDFs)
-- Thomson scattering diagnostics
-- Space and laboratory plasmas
-- Plasma propulsion
-- Semiconductor plasma processing
-- Plasma turbulence and transport
+Research Interests:
+Experimental plasma physics, magnetic reconnection, wave–particle interactions, lower-hybrid drift instability (LHDI), plasma diagnostics, Thomson scattering, space and laboratory plasmas, plasma propulsion, and semiconductor plasma processing.
 
-## Selected Expertise
+Brief Bio:
+Sonu Yadav is an experimental plasma physicist specializing in laboratory and space-relevant plasma phenomena. He completed his Ph.D. at the Institute for Plasma Research (IPR), India, and currently works at West Virginia University on the PHASMA experiment studying magnetic reconnection and kinetic plasma processes. His research focuses on wave–particle interactions, particle velocity distribution measurements, advanced plasma diagnostics, and plasma system development relevant to space physics, and semiconductor plasma technologies.
 
-- Plasma diagnostics development
-- High-vacuum plasma systems
-- Helicon and inductively coupled plasmas
-- RF plasma systems
-- MATLAB and Python-based plasma analysis
-- Experimental system integration
-- Plasma source development
-
-## Links
-
-- GitHub: https://sonuyadav1908.github.io/
-- Google Scholar: https://scholar.google.com/citations?user=5u55x14AAAAJ&hl=en
