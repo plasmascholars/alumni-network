@@ -1,6 +1,6 @@
 Name: Sonu Yadav
 
-Batch Year: Ph.D. 2020
+Batch Year: Ph.D. 2012
 
 Current Position: Research Scientist / Experimental Plasma Physicist
 
