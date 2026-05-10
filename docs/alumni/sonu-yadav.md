@@ -39,6 +39,5 @@ His broader research interests also include plasma processing for semiconductor 
 
 ## Links
 
-- GitHub: https://github.com/
-- Google Scholar:
-- LinkedIn:
+- GitHub: https://sonuyadav1908.github.io/
+- Google Scholar: https://scholar.google.com/citations?user=5u55x14AAAAJ&hl=en
