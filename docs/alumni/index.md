@@ -6,6 +6,7 @@ This section is generated automatically from the Markdown files in `alumni-data/
 
 - [Gurudatt Gaur](gurudatt-gaur.md)
 - [Ujjwal Sinha](ujjwal-sinha.md)
+- [Sonu Yadav](sonu-yadav.md)
 
 ## Template
 
